@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --serface-page: #FAF8F7;
+  --serface-card: #FFF;
+  --text-primary: #2D2533;
+  --text-secondary: #3E2D3F;
+  --serface-recessed: #E4DCD9;
+  --serface-accent: #3E2D3F;
+  --spirituals-card: #050505;
+  --text-invert: #FFF;
+  --spirituals-accent: #D5A835;
+  --spirituals-recessed: #2E2B2B;
+  --women-card: #D6A4AF;
+  --women-accent: #43282E;
+  --women-recessed: #B27382;
+  --students-card: #C8EDEA;
+  --students-accent: #33514F;
+  --students-recessed: #A4D8D4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Geist', -apple-system, Roboto, Helvetica, sans-serif;
+  background-color: var(--serface-page);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-geist {
+  font-family: 'Geist', -apple-system, Roboto, Helvetica, sans-serif;
+}
